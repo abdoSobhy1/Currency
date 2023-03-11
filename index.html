@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <script src="currencies.js" defer></script>
+    <title>فلوث</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="source">
+        <span class="number">1</span>
+        <span class="src">United States Dollar</span> equals
+      </p>
+      <p class="rate">
+        <span class="number">1</span>
+        <span class="trgt">Egyptian Pound</span>
+      </p>
+      <div class="from">
+        <input type="number" class="curr-in currency" />
+        <select
+          name="curr-from curr-form"
+          id="curr-from curr-form"
+          class="curr-from curr-form"
+        >
+          <option value="" hidden>Select A Currency</option>
+        </select>
+      </div>
+      <div class="to">
+        <input type="number" class="curr-out currency" />
+        <select
+          name="curr-to curr-form"
+          id="curr-to curr-form"
+          class="curr-to curr-form"
+        >
+          <option value="" hidden>Select A Currency</option>
+        </select>
+      </div>
+    </div>
+  </body>
+</html>
